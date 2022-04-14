@@ -1,5 +1,7 @@
-header{
-    background:aqua;
+@import '_variables';
+
+header {
+    background: aqua;
     display: flex;
     justify-content: center;
 }
