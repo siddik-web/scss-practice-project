@@ -1,0 +1,12 @@
+@mixin flexCenter ($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    height: 100vh;
+}
+@mixin  sectionsStyle($direction, $background) {
+    @include flexCenter($direction);
+    background: $background;
+    color: $textColor;
+}

@@ -1,5 +1,10 @@
-@import '_variables';
-@import '_header';
+@import 'scss/_variables';
+@import "scss/mixin/utils";
+@import 'scss/_header';
+@import 'scss/_about';
+@import 'scss/_portfolio';
+@import 'scss/_contact';
+
 body {
     background-color: $mainColor;
     margin: 0px;

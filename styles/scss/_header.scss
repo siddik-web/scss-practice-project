@@ -1,0 +1,6 @@
+header {
+    @include sectionsStyle(column, $primaryColor);
+    @import "_nav";
+    @import "_button";
+}
+
