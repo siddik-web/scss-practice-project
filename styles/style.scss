@@ -1,7 +1,45 @@
 @import '_variables';
 
+body {
+    background-color: $mainColor;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
 header {
-    background: aqua;
+    background: $accentColor;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    color: $textColor;
+    
+    nav {
+        width: 300px;
+        ul{
+            margin: 0px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+                padding: auto;
+
+                a {
+                    text-decoration: none;
+                    color: $textColor;
+                }
+            }
+        }
+    }
+
+    button {
+        background-color: $darkPrimaryColor;
+        color: $textColor;
+        border: none;
+        padding: 10px 20px;
+
+        &:hover {
+            background-color: $primaryColor;
+        }
+    }
 }
