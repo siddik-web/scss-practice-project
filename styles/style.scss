@@ -23,10 +23,12 @@ header {
 
             li {
                 padding: auto;
-
                 a {
                     text-decoration: none;
                     color: $textColor;
+                }
+                &:hover {
+                    cursor:pointer;
                 }
             }
         }
@@ -40,6 +42,7 @@ header {
 
         &:hover {
             background-color: $primaryColor;
+            cursor:pointer;
         }
     }
 }

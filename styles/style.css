@@ -43,6 +43,10 @@ header nav ul li a {
   color: #FFFFFF;
 }
 
+header nav ul li:hover {
+  cursor: pointer;
+}
+
 header button {
   background-color: #512DA8;
   color: #FFFFFF;
@@ -52,5 +56,6 @@ header button {
 
 header button:hover {
   background-color: #673AB7;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
